@@ -27,14 +27,14 @@ Create the following files in the root of our project directory:
   * Declares the variables used in your Terraform configuration, allowing you to customize your setup without modifying the main code.
 
 Let's start with configuring our AWS provider.
-    {% code title="provider.tf" %}
-    ```yaml
-    # Specify the AWS provider and region
-    provider "aws" {
-      region = "us-west-2" # AWS region where resources will be deployed
-    }
-    ```
-    {% endcode %}
+{% code title="provider.tf" %}
+```yaml
+# Specify the AWS provider and region
+provider "aws" {
+  region = "us-west-2" # AWS region where resources will be deployed
+}
+```
+{% endcode %}
 
 I am using the region "us-west-2" as it is closest to my location, you can select whichever is closest to you. You can find the list of regions [here](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.RegionsAndAvailabilityZones.html#Concepts.RegionsAndAvailabilityZones.Regions).
 
