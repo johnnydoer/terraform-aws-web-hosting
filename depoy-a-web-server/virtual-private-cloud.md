@@ -27,6 +27,7 @@ Create the following files in the root of our project directory:
   * Declares the variables used in your Terraform configuration, allowing you to customize your setup without modifying the main code.
 
 Let's start with configuring our AWS provider.
+
 {% code title="provider.tf" %}
 ```yaml
 # Specify the AWS provider and region
